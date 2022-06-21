@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class Exercicio2 {
+public class Exercicio3 {
 
     public static void main(String[] args) {
         
-        Scanner entrada = neww Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
 
-        System.out.println("Digite um número para calcular o fatorial: ");
+        System.out.print("Digite um número para calcular o fatorial: ");
         int numero = entrada.nextInt();
 
         long fatorial = 1;
@@ -15,7 +15,7 @@ public class Exercicio2 {
             fatorial = fatorial * i;
         }
 
-        System.out.println("O fatorial de " + numero + "é" + fatorial );
+        System.out.println("O fatorial de " + numero + " é " + fatorial );
         
     }
 
